@@ -1,8 +1,7 @@
 from niveau import *
 class Classes(Niveau):
-    def __init__(self, Nom, niveau):
+    def __init__(self, Nom):
         self.Nom = Nom
-        self.Niveau.Nom = niveau
 
 
 classes = Classes()
