@@ -5,4 +5,5 @@ class Professeurs:
         self.Sexe = Sexe
         self.Tarif_horaire = Tarif_horaire
 
+
 teachers1 = Professeurs("Dupont", "Masculin", 100)

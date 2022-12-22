@@ -1,7 +1,8 @@
 from niveau import *
 
 class Etudiants(Niveau):
-    def __init__(self, Nom, sexe, niveau):
+    def __init__(self, Nom, sexe, niveau, nom):
+        super().__init__(nom)
         self.Nom = Nom
         self.sexe = sexe
         self.Niveau.Nom = niveau
